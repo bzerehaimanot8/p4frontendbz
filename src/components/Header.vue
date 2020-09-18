@@ -32,9 +32,10 @@
             <a class="button is-primary">
               <strong>Sign up</strong>
             </a>
-            <a class="button is-light">
-              Log in
-            </a>
+<!--            <a class="button is-light">-->
+<!--              Log in-->
+<!--            </a>-->
+            <router-link to="/login">Login</router-link>
           </div>
         </b-navbar-item>
       </template>
